@@ -4,7 +4,10 @@ from analytics import average, Gender_analysis, top_10_students
 from charts import Chart, Mcharts, Rcharts, Wcharts, distributions, Box_plots
 import pandas as pd
 
-load_csv()
+if "data_loaded" not in st.session_state:
+    with st.spinner("Loading dataset..."):
+        load_csv()
+    st.session_state.data_loaded = True
 
 st.set_page_config(page_title="Student Dashboard", layout="wide")
 
