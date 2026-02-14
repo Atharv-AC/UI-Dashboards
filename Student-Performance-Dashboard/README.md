@@ -1,7 +1,12 @@
 # Student Performance Dashboard
 
 > A comprehensive data analysis and visualization dashboard that provides insights into student academic performance using Python, SQLite, and Streamlit.
-> 
+>
+
+## Live Demo
+Click here to open the dashboard:
+https://atharv-ac-ui-dashboard.streamlit.app/
+
 
 ## 📋 Overview
 This project analyzes student performance data to uncover meaningful patterns and trends in academic achievement. It loads a CSV dataset into a SQLite database, runs SQL-driven analysis, and generates interactive visual reports in a Streamlit app to support data-informed decisions.

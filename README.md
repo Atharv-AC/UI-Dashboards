@@ -17,6 +17,10 @@ More dashboards and machine learning projects will be added over time.
 
 ---
 
+## Live Demo
+Click here to open the dashboard:
+https://atharv-ac-ui-dashboard.streamlit.app/
+
 ## 🚀 Projects Included
 
 ### 1. Student Performance Dashboard
