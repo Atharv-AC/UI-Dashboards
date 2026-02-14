@@ -4,12 +4,13 @@ from analytics import average, Gender_analysis, top_10_students
 from charts import Chart, Mcharts, Rcharts, Wcharts, distributions, Box_plots
 import pandas as pd
 
+st.set_page_config(page_title="Student Dashboard", layout="wide")
+
 if "data_loaded" not in st.session_state:
     with st.spinner("Loading dataset..."):
         load_csv()
     st.session_state.data_loaded = True
 
-st.set_page_config(page_title="Student Dashboard", layout="wide")
 
 
 st.markdown('''# 📊 Student Performance Analysis
@@ -134,7 +135,7 @@ elif menu == "Data preview":
 elif menu == "Averages":
     st.write("Average Scores")
 
-    @st.cache_data
+
     def get_average_cached():
         return average()
 

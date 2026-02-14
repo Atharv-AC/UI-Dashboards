@@ -15,7 +15,8 @@ import sqlite3
 DB_PATH = "Performance.db"
 
 def execute_write(query, params=()):
-    conn = sqlite3.connect(DB_PATH)
+    # check_same_thread = False allows multiple threads to access the database connection
+    conn = sqlite3.connect(DB_PATH, check_same_thread = True)
     cur = conn.cursor()
     cur.execute(query, params)
     conn.commit()
@@ -23,7 +24,7 @@ def execute_write(query, params=()):
 
 
 def execute_read(query, params=()):
-    conn = sqlite3.connect(DB_PATH)
+    conn = sqlite3.connect(DB_PATH, check_same_thread = True)
     cur = conn.cursor()
     cur.execute(query, params)
     rows = cur.fetchall()
