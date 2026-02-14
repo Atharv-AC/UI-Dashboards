@@ -1,4 +1,4 @@
-matplotlib==3.10.8
-pandas==3.0.0
-streamlit==1.54.0
-sqlite3==0.0.1
+matplotlib
+pandas
+streamlit
+numpy
