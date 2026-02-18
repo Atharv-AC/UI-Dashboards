@@ -12,22 +12,22 @@ def charts_info():
         base_path = os.path.dirname(__file__)
         # model_path = os.path.join(base_path, "models", "reading_model.pkl")
         confu_path = os.path.abspath(
-            os.path.join(base_path, "..", "..", "reports", "confusion_matrix.svg")
+            os.path.join(base_path, "..", "..", "report", "confusion_matrix.svg")
         )  
         mathhisto_path = os.path.abspath(
-            os.path.join(base_path, "..", "..", "reports", "Math_distribution.svg")
+            os.path.join(base_path, "..", "..", "report", "Math_distribution.svg")
         )  
         passFail_path = os.path.abspath(
-            os.path.join(base_path, "..", "..", "reports", "Pass_Fail_chart.svg")
+            os.path.join(base_path, "..", "..", "report", "Pass_Fail_chart.svg")
         )  
         predprob_path = os.path.abspath(
-            os.path.join(base_path, "..", "..", "reports", "Probability.svg")
+            os.path.join(base_path, "..", "..", "report", "Probability.svg")
         )  
         curve_path = os.path.abspath(
-            os.path.join(base_path, "..", "..", "reports", "ROC_curve.svg")
+            os.path.join(base_path, "..", "..", "report", "ROC_curve.svg")
         )  
         scatter_path = os.path.abspath(
-            os.path.join(base_path, "..", "..", "reports", "Scatter_chart.svg")
+            os.path.join(base_path, "..", "..", "report", "Scatter_chart.svg")
         )  
 
     except Exception as e:

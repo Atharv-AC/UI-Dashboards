@@ -10,6 +10,12 @@ A **Streamlit-based Machine Learning dashboard** that predicts student reading p
 
 The app also provides **model insights, visualizations, and evaluation metrics** to help understand how predictions work.
 
+
+## Live Demo
+Click here to open the dashboard:
+https://predict-ui-dashboards.streamlit.app/
+
+
 ---
 
 ## 🚀 Features
