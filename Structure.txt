@@ -1,25 +1,57 @@
 .
 ├── README.md
 ├── Structure.txt
-└── Student-Performance-Dashboard
-    ├── Dataset
-    │   ├── Performance.db
-    │   └── StudentsPerformance_cleaned.csv
-    ├── README.md
-    ├── images
-    │   ├── image 1.png
-    │   ├── image 2.png
-    │   ├── image 3.png
-    │   ├── image 4.png
-    │   ├── image 5.png
-    │   └── image.png
-    ├── requirements.txt
-    ├── src
-    │   ├── analytics.py
-    │   ├── charts.py
-    │   ├── dashboard.py
-    │   ├── db.py
-    │   └── loader.py
-    └── structure.txt
+├── Student-Performance-Dashboard
+│   ├── Dataset
+│   │   └── StudentsPerformance_cleaned.csv
+│   ├── README.md
+│   ├── images
+│   │   ├── image 1.png
+│   │   ├── image 2.png
+│   │   ├── image 3.png
+│   │   ├── image 4.png
+│   │   ├── image 5.png
+│   │   └── image.png
+│   ├── src
+│   │   ├── analytics.py
+│   │   ├── charts.py
+│   │   ├── dashboard.py
+│   │   ├── db.py
+│   │   ├── loader.py
+│   │   └── requirements.txt
+│   └── structure.txt
+├── Students-Marks-Prediction
+│   ├── Data
+│   │   └── StudentsPerformance_cleaned.csv
+│   ├── README.md
+│   ├── models
+│   │   ├── reading_model.pkl
+│   │   └── reading_model2.pkl
+│   ├── reports
+│   │   ├── ActualPred_corelation.svg
+│   │   ├── HistrogramChart.svg
+│   │   ├── MathRead_corelation.svg
+│   │   ├── Math_distribution.svg
+│   │   ├── Pass_Fail_chart.svg
+│   │   ├── Probability.svg
+│   │   ├── ROC_curve.svg
+│   │   ├── ResidualChart.svg
+│   │   ├── Scatter_chart.svg
+│   │   ├── confusion_matrix.svg
+│   │   └── writeRead_corelation.svg
+│   └── src
+│       ├── charts.py
+│       ├── dashboard.py
+│       ├── requirements.txt
+│       ├── utils
+│       │   ├── __init__.py
+│       │   ├── evaluation.py
+│       │   └── model_loader.py
+│       └── views
+│           ├── __init__.py
+│           ├── about.py
+│           ├── insights.py
+│           └── predict.py
+└── runtime.txt
 
-5 directories, 18 files
+12 directories, 43 files
