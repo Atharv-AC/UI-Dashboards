@@ -17,9 +17,6 @@ More dashboards and machine learning projects will be added over time.
 
 ---
 
-## Live Demo
-Click here to open the dashboard:
-https://atharv-ac-ui-dashboard.streamlit.app/
 
 ## 🚀 Projects Included
 
@@ -41,12 +38,34 @@ An interactive dashboard that analyzes student academic performance and visualiz
 * SQLite
 * Streamlit
 
-Project folder:
+🔗 Live Demo: https://atharv-ac-ui-dashboard.streamlit.app/
+
+📂 Project folder:
 
 ```
 Student-Performance-Dashboard/
 ```
+### 2️⃣ Students-Marks-Prediction
+A Machine Learning dashboard that predicts:
 
+- 📚 Reading Score using Linear Regression  
+- ✅ Pass / Fail using Logistic Regression  
+- 📊 Model insights and evaluation charts  
+
+**Tech Used**
+- Python
+- Streamlit
+- Scikit-learn
+- Pandas
+- Joblib
+
+🔗 Live Demo: https://predict-ui-dashboards.streamlit.app/
+
+📂 Project Folder: 
+
+```
+Students-Marks-Prediction/
+```
 ---
 
 ## 🛠️ Technologies Used
@@ -138,7 +157,11 @@ This repository is primarily for learning and portfolio purposes, but suggestion
 
 ## 👨‍💻 Author
 
-Atharv Chandurkar
+**Atharv Chandurkar**
+
+GitHub:
+https://github.com/Atharv-AC
+
 
 <aside>
 
