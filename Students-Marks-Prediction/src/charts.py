@@ -103,4 +103,5 @@ def curve(model, X_test, y_test):
     ax.set_ylabel("True Positive Rate")
     ax.legend()
 
+
     return fig

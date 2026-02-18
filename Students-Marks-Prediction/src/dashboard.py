@@ -67,9 +67,17 @@ def home_page():
     4. View results and charts  
     """)
 
-    st.divider()
+    # st.divider()
 
-    st.caption("Built with Streamlit for practice project")
+    # st.caption("Built with Streamlit for practice project")
+
+    st.divider()
+    st.caption("👨‍💻 Created by Atharv AC | 🔗 https://github.com/Atharv-AC")
+    st.caption("Built with ❤️ using Streamlit as practice project")
+
+
+
+
 
 # home_page()
 
@@ -124,7 +132,11 @@ elif page == "📈 Model Insights":
         model_insight()
 
     with tab2:
-        charts_info()
+        charts_info()  
+        st.divider()
+        st.caption("👨‍💻 Created by Atharv AC | 🔗 https://github.com/Atharv-AC")
+        st.caption("Built with ❤️ using Streamlit as practice project")
+
 
 
 

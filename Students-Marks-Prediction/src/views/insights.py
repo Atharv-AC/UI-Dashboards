@@ -208,3 +208,7 @@ def model_insight():
     st.divider()
     col1, col2 = st.columns(2)
 
+    
+    # st.divider()
+    st.caption("👨‍💻 Created by Atharv AC | 🔗 https://github.com/Atharv-AC")
+
