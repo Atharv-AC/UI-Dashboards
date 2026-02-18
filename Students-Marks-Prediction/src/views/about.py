@@ -378,7 +378,7 @@ def logregression():
         base_path = os.path.dirname(__file__)
         # model_path = os.path.join(base_path, "models", "reading_model.pkl")
         confu_path = os.path.abspath(
-            os.path.join(base_path, "..","..", "reports", "confusion_matrix.svg")
+            os.path.join(base_path, "..","..", "report", "confusion_matrix.svg")
         )  
 
     except Exception as e:
@@ -539,13 +539,13 @@ def linearregrission():
         base_path = os.path.dirname(__file__)
         # model_path = os.path.join(base_path, "models", "reading_model.pkl")
         actpred_path = os.path.abspath(
-            os.path.join(base_path, "..","..", "reports", "ActualPred_corelation.svg")
+            os.path.join(base_path, "..","..", "report", "ActualPred_corelation.svg")
         )  
         resi_path = os.path.abspath(
-            os.path.join(base_path, "..","..", "reports", "ResidualChart.svg")
+            os.path.join(base_path, "..","..", "report", "ResidualChart.svg")
         )  
         hist_path = os.path.abspath(
-            os.path.join(base_path, "..","..", "reports", "HistrogramChart.svg")
+            os.path.join(base_path, "..","..", "report", "HistrogramChart.svg")
         )  
     except Exception as e:
         st.error(f"Failed to load model: {e}")
