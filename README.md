@@ -38,7 +38,9 @@ An interactive dashboard that analyzes student academic performance and visualiz
 * SQLite
 * Streamlit
 
-🔗 Live Demo: https://atharv-ac-ui-dashboard.streamlit.app/
+**🔗 Live Demo:**
+<a href="https://atharv-ac-ui-dashboard.streamlit.app/" target="_blank">Open Dashboard</a>
+
 
 📂 Project folder:
 
@@ -59,7 +61,10 @@ A Machine Learning dashboard that predicts:
 - Pandas
 - Joblib
 
-🔗 Live Demo: https://predict-ui-dashboards.streamlit.app/
+
+**🔗 Live Demo:**
+<a href="https://predict-ui-dashboards.streamlit.app/" target="_blank">Open Dashboard</a>
+
 
 📂 Project Folder: 
 
