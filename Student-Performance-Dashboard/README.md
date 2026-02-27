@@ -140,8 +140,6 @@ The dashboard can generate and display:
 ### Box Plot of Scores
 <img src="images/image.png" width="400"/>
 
-## Live Demo
-Coming soon: Streamlit Cloud deployment
 
 
 ## 📚 Learning and Development Notes
